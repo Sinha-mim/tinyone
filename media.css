@@ -1,0 +1,349 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Navbar */
+  .navbar-nav {
+    text-align: right;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 0 !important;
+    text-align: right;
+  }
+
+  /* Section padding */
+  .c_padding {
+    padding: 80px;
+    padding-bottom: 100px;
+  }
+
+  /* Slider section */
+  .slider .s_text h1 {
+    font-size: 34px;
+  }
+
+  .slider .s_text h2 {
+    font-size: 22px;
+  }
+
+  .slider .s_text p {
+    font-size: 16px;
+  }
+
+  .s_icon i {
+    font-size: 32px;
+  }
+
+  /* Feature items */
+  .f_item {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .f_icon i {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  /* Contact section */
+  .c_h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .c_p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .c_input,
+  .c_submit {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .c_icon {
+    text-align: center;
+  }
+
+  .c_icon i {
+    font-size: 22px;
+    margin: 0 8px;
+  }
+  * Footer */
+  footer {
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  footer .row > div {
+    margin-bottom: 20px;
+  }
+
+  footer p,
+  footer address {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  
+}
+
+/* ======= Large screens (min-width: 992px) ======= */
+@media (min-width: 992px) {
+  
+}
+
+/* ======= Small mobile screens (min-width: 576px) and (max-width: 767.98px) ======= */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .c_padding {
+    padding: 50px;
+    padding-bottom: 70px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 0 0 !important;
+    font-size: 15px;
+    text-align: right;
+  }
+
+  /* Slider */
+  .slider {
+    padding-bottom: 60px;
+  }
+
+  .c_ind [data-bs-target] {
+    width: 12px;
+    height: 12px;
+  }
+
+  .s_text {
+    margin-top: 0px;
+  }
+
+  .s_text h1 {
+    font-size: 20px;
+  }
+
+  .s_text h2 {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  .s_text p {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  .s_icon li {
+    margin-right: 20px !important;
+  }
+
+  .s_icon  li i {
+    font-size: 35px;
+  }
+
+  /* Feature */
+  .c_h1 {
+    font-size: 25px;
+  }
+
+  .c_p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .f_item {
+    margin-top: 30px;
+  }
+
+  .f_icon i {
+    font-size: 35px;
+  }
+
+  .f_text {
+    text-align: center;
+  }
+
+  .f_text p {
+    letter-spacing: 0;
+  }
+
+  .f_text h2{
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+
+  .logo {
+    height: 40px;
+  }
+
+  /* Contact start */
+  .c_form {
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  .c_input{
+    height: 45px;
+    padding: 10px 10px;
+  }
+  .c_submit{
+    height: 45px;
+  }
+   
+  .c_icon li{
+    margin-right: 25px !important;
+  }
+  .c_icon li i{
+   font-size: 40px;
+  }
+  
+/* footer start */
+footer{
+  padding-bottom: 70px;
+}
+.foot_1{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.foot_2{
+  text-align: center;
+}
+
+
+}
+
+@media (max-width: 767px) {
+
+  /* Common padding for all sections */
+  .c_padding {
+    padding: 40px 15px;
+  }
+  .logo {
+    height: 40px;
+  }
+
+  /* Navbar */
+  .navbar-nav {
+    text-align: right;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 8px 0 !important;
+    text-align: right;
+  }
+
+  .navbar-brand span {
+    font-size: 24px;
+  }
+
+  /* Slider section */
+  .c_ind {
+  bottom: -75px;
+}
+.c_ind [data-bs-target] {
+  width: 12px;
+  height: 12px;
+
+}
+  .s_text h1 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .s_text h2 {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .s_text p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .s_icon ul {
+    justify-content: left;
+    padding: 0;
+  }
+
+  .carousel-inner .row {
+    flex-direction: column-reverse;
+    text-align: left;
+  }
+
+  .carousel-inner img {
+    max-width: 200px;
+    margin: 0 auto 20px;
+  }
+
+  /* Features */
+  .f_item {
+    margin-top: 30px;
+  }
+
+  .f_icon {
+    margin-bottom: 10px;
+  }
+
+  .f_text h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .f_text p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .f_icon i {
+    font-size: 25px;
+  }
+
+  /* Contact Section */
+  .c_h1 {
+    font-size: 22px;
+  }
+
+  .c_p {
+    font-size: 14px;
+  }
+
+  .c_form .form-control {
+    width: 100%;
+  }
+   .c_input {
+    height: 45px;
+   }
+  .c_submit {
+    width: 100%;
+    margin-top: 0px;
+    height: 45px;
+  }
+  .c_icon li {
+  margin-right: 20px !important;
+  }
+  .c_icon li i {
+  font-size: 36px;
+  }
+
+  .c_icon ul {
+    justify-content: center;
+  }
+  
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  footer .row > div {
+    margin-bottom: 20px;
+  }
+
+  footer p,
+  footer address {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+}
